@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (req, res) => {
   res.send(`
         <!DOCTYPE html>
-        <html>
+        <html lang="en">
         <head>
             <title>Course Server</title>
         </head>
